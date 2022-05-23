@@ -57,6 +57,7 @@ Central challenge for many physics tasks:
 
 $$w=\frac{P(\Phi)}{Q(\Phi)}$$
 
+![height:300px](./assets/vegas_ex.png)
 
 ----
 
@@ -74,19 +75,9 @@ Even modern ML (normalising flows) won't save you [[2001.05478]](https://arxiv.o
 HAAG | 3.0% | 2.7% 
 Vegas | 27.7% | 31.8% 
 Neural Network | 64.3% | 33.6% 
-----
-
-
-![height:400px](./assets/efficiencies.png)
-
- Algorithm |  $gg\rightarrow 3g$ |  $gg\rightarrow 4g$  |  $gg\rightarrow 5g$
------|:-----:|:-----: |:-----:
-HAAG | 3.0% | 2.7% | 2.8%
-Vegas (cold start) | 2.0% | 0.05% | 0.01% 
-NS | 1.0% | 1.0% | 1.0%  
-
 
 ----
+
 ## A sampling problem? Anyone for Bayes?
 
 Central problem:
@@ -135,6 +126,17 @@ Unweighted Events
 
 ----
 
+![height:400px](./assets/efficiencies.png)
+
+ Algorithm |  $gg\rightarrow 3g$ |  $gg\rightarrow 4g$  |  $gg\rightarrow 5g$
+-----|:-----:|:-----: |:-----:
+HAAG | 3.0% | 2.7% | 2.8%
+Vegas (cold start) | 2.0% | 0.05% | 0.01% 
+NS | 1.0% | 1.0% | 1.0%  
+
+
+----
+
 ## Where do we go from here?
 
 End to end stylised version of the problem demonstrated. 
@@ -159,4 +161,25 @@ This is deeper than coming up with a new way of mapping phase space
 
 The fundamental motivation for this work came from recognising not just an ML challenge but a physics challenge [[2004.13687]](https://arxiv.org/abs/2004.13687)
 
-LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it doesn't solve the right problem
+LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it doesn't solve the right problem. Unique features of NS open up some seriously interesting physics:
+
+- No mapping required: NLO proposals generically harder, NNLO more so 
+- No channel decomposition: can we be _really_ clever when it comes to counter events, negative events etc. with this?
+- Computation scaling guaranteed to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensial problems, $gg\rightarrow 10g$ anyone?
+
+----
+
+## Conclusion
+
+<!-- Event generation is a Markov Chain sampling process (despite what you may have been told), needing stochastic refinement is inevitable. -->
+
+<!-- Event Generation is fundamentally an inversion of a Conditional probability, Bayesian inference (and hence Markov Chains) are the (IMO) proper language for this problem -->
+
+The fundamental problem for LHC event generation trying to do Importance Sampling in high dimension.
+
+Machine learning can be useful but this is __NOT__ just a machine learning mapping problem. 
+
+This _IS_ a Bayesian inference problem (despite what you may have been told), precisely calculating Evidences or Posterior sampling. 
+
+Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that can do particle physics integrals
+
