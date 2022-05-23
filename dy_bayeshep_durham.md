@@ -129,9 +129,9 @@ Nested Sampling [[Skilling 2006]](https://projecteuclid.org/journals/bayesian-an
 
 
 ----
-<!-- Unweighted Events -->
+Unweighted Events 
 
-![width:1150px](./assets/jet_pT_1.png)
+![width:1100px](./assets/jet_pT_1.png)
 
 ----
 
