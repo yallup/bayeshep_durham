@@ -53,11 +53,9 @@ Central challenge for many physics tasks:
 #### Workhorse in HEP on this set of problems is Importance sampling
 
 - Replace problem of sampling from unknown $P(\Phi)$ with a known $Q(\Phi)$
-- Adjust importance of sample drawn from $Q$ by weighting 
+- Adjust importance of sample drawn from $Q$ by weighting, $w=\frac{P(\Phi)}{Q(\Phi)}$
 
-$$w=\frac{P(\Phi)}{Q(\Phi)}$$
-
-![height:300px](./assets/vegas_ex.png)
+![height:400px](./assets/vegas_ex.png)
 
 ----
 
@@ -111,6 +109,13 @@ Nested Sampling [[Skilling 2006]](https://projecteuclid.org/journals/bayesian-an
 - Largely self tuning
   - Little interal hyperparameterization
   - More importantly, tunes any reasonable prior to posterior
+
+
+----
+[[yallup.github.io/bayeshep_durham]](https://yallup.github.io/bayeshep_durham/) for animated versions
+
+![height:600px](./assets/example_animate.gif)
+
 
 
 ----
