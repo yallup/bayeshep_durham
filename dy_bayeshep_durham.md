@@ -173,7 +173,6 @@ LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it do
 - Computation scaling guaranteed to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensial problems, $gg\rightarrow 10g$ anyone?
 
 ----
-
 ## Conclusion
 
 <!-- Event generation is a Markov Chain sampling process (despite what you may have been told), needing stochastic refinement is inevitable. -->
@@ -182,9 +181,9 @@ LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it do
 
 The fundamental problem for LHC event generation trying to do Importance Sampling in high dimension.
 
-Machine learning can be useful but this is __NOT__ just a machine learning mapping problem. 
+Machine learning can and will be useful, but this is not __just__ a machine learning mapping problem. 
 
-This _IS_ a Bayesian inference problem (despite what you may have been told), precisely calculating Evidences or Posterior sampling. 
+This __is__ a Bayesian inference problem, precisely calculating Evidences or Posterior sampling. 
 
 Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that can do particle physics integrals
 
