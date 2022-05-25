@@ -50,7 +50,7 @@ Central challenge for many physics tasks:
 - Events - (unweight) and use as pseudo data
 
 ----
-#### Workhorse in HEP on this set of problems is Importance sampling
+#### Workhorse in HEP on this set of problems is Importance Sampling
 
 - Replace problem of sampling from unknown $P(\Phi)$ with a known $Q(\Phi)$
 - Adjust importance of sample drawn from $Q$ by weighting, $w=\frac{P(\Phi)}{Q(\Phi)}$
@@ -173,9 +173,9 @@ The fundamental motivation for this work came from recognising not just an ML ch
 
 LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it doesn't solve the right problem. Unique features of NS open up interesting physics:
 
-- No mapping required: NLO proposals generically harder, NNLO more so 
-- No channel decomposition: can we be _really_ clever when it comes to counter events, negative events etc. with this?
-- Computation scaling guaranteed to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensional problems, $gg\rightarrow 10g$ anyone?
+- __No mapping required:__ NLO proposals generically harder, NNLO more so 
+- __No channel decomposition:__ can we be _really_ clever when it comes to counter events, negative events etc. with this?
+- __Computation scaling guaranteed__ to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensional problems, $gg\rightarrow 10g$ anyone?
 
 ----
 ## Conclusion
