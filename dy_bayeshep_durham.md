@@ -85,6 +85,11 @@ Central problem:
   - Multichannel decompositions in MCMC HEP, (MC)$^3$ [[1404.4328]](https://arxiv.org/abs/1404.4328)
 
 $$P(\Phi ) = \frac{ \mathcal{L}(\Phi) \Pi (\Phi)}{\mathcal{Z}} \propto \mathcal{L}(\Phi) \Pi (\Phi) $$
+&nbsp;
+
+_MCMC kicks in as we go to high dimensions, grey area between IS and MCMC, can ML help?_
+
+
 
 ----
 ## Where's the Evidence?
@@ -166,11 +171,11 @@ This is deeper than coming up with a new way of mapping phase space
 
 The fundamental motivation for this work came from recognising not just an ML challenge but a physics challenge [[2004.13687]](https://arxiv.org/abs/2004.13687)
 
-LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it doesn't solve the right problem. Unique features of NS open up some seriously interesting physics:
+LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it doesn't solve the right problem. Unique features of NS open up interesting physics:
 
 - No mapping required: NLO proposals generically harder, NNLO more so 
 - No channel decomposition: can we be _really_ clever when it comes to counter events, negative events etc. with this?
-- Computation scaling guaranteed to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensial problems, $gg\rightarrow 10g$ anyone?
+- Computation scaling guaranteed to $\sim$ polynomial with $D$, other methods exponential: We can do _genuinely_ high dimensional problems, $gg\rightarrow 10g$ anyone?
 
 ----
 ## Conclusion
@@ -179,11 +184,11 @@ LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it do
 
 <!-- Event Generation is fundamentally an inversion of a Conditional probability, Bayesian inference (and hence Markov Chains) are the (IMO) proper language for this problem -->
 
-The fundamental problem for LHC event generation trying to do Importance Sampling in high dimension.
+- The fundamental problem for LHC event generation trying to do Importance Sampling in high dimension.
 
-Machine learning can and will be useful, but this is not __just__ a machine learning mapping problem. 
+- Machine learning can and will be useful, but this is not __just__ a machine learning mapping problem. 
 
-This __is__ a Bayesian inference problem, precisely calculating Evidences or Posterior sampling. 
+- This __is__ a Bayesian inference problem, precisely calculating Evidences or Posterior sampling. 
 
-Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that can do particle physics integrals
+- Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that can do particle physics integrals
 
