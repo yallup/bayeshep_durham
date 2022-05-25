@@ -39,7 +39,7 @@ Work based on [[2205.02030]](https://arxiv.org/abs/2205.02030) w. T. Janßen, S.
 
 $$ \sigma = \int\limits_\Omega d\Phi |\mathcal{M}|^2 (\Phi)\, $$
 
-Cross section  = integral$_\text{over kinematic variables}$ ( Matrix Element )
+Cross section  = integral$_\text{(over kinematic variables)}$ ( Matrix Element )
 &nbsp;
 
 Central challenge for many physics tasks:  
@@ -106,7 +106,7 @@ $$ \mathcal{Z} = \int d\theta \mathcal{L} (\theta) \Pi (\theta)\, $$
 ----
 ## Nested Sampling
 
-Nested Sampling [[Skilling 2006]](https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-4/Nested-sampling-for-general-Bayesian-computation/10.1214/06-BA127.full), implemented for in PolyChord [[1506.00171]](https://arxiv.org/abs/1506.00171). Is the __best__ way to generically approach this problem for $\mathcal{O}(10)\rightarrow \mathcal{O}(100)$ dimensions
+Nested Sampling [[Skilling 2006]](https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-4/Nested-sampling-for-general-Bayesian-computation/10.1214/06-BA127.full), implemented for in PolyChord [[1506.00171]](https://arxiv.org/abs/1506.00171). Is a good way to generically approach this problem for $\mathcal{O}(10)\rightarrow \mathcal{O}(100)$ dimensions
 
 - Primarily an integral algorithm (largely unique vs other MCMC approaches)
 - Designed for multimodal problems from inception 
@@ -180,6 +180,7 @@ LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it do
 ----
 ## Conclusion
 
+In my opinion (your milage may vary)
 <!-- Event generation is a Markov Chain sampling process (despite what you may have been told), needing stochastic refinement is inevitable. -->
 
 <!-- Event Generation is fundamentally an inversion of a Conditional probability, Bayesian inference (and hence Markov Chains) are the (IMO) proper language for this problem -->
@@ -190,5 +191,5 @@ LO dijet isn't hard, NNNLO is. If your method isn't robust in these limits it do
 
 - This __is__ a Bayesian inference problem, precisely calculating Evidences or Posterior sampling. 
 
-- Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that can do particle physics integrals
+- Nested Sampling is a high dimensional integration method, primarily from Bayesian Inference, that is an excellent choice for particle physics integrals
 

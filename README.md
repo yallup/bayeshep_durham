@@ -1,4 +1,7 @@
-# Marp CLI example
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yhatt/marp-cli-example)
+
+
+<!-- # Marp CLI example
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yhatt/marp-cli-example)
 
@@ -111,4 +114,4 @@ npm run og-image  # Output image for Open Graph to dist/og-image.jpg
 
 ## LICENSE
 
-[WTFPL](/LICENSE)
+[WTFPL](/LICENSE) -->
