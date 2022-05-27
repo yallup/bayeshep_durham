@@ -4,8 +4,6 @@ theme: gaia
 class:
   - lead
   - invert
-# # footer: 'Footer content'
-# paginate: true
 ---
 
 <style>
@@ -14,6 +12,8 @@ section {
   font-size: 28px;
 }
 </style>
+
+<!-- _class: invert lead-->
 
 # Exploring Phase Space with Nested Sampling
 
@@ -32,6 +32,7 @@ Work based on [[2205.02030]](https://arxiv.org/abs/2205.02030) w. T. Janßen, S.
 ----
 
 <!-- paginate: true -->
+
 
 ### Exploring phase space?
 &nbsp;
@@ -121,6 +122,10 @@ Nested Sampling [[Skilling 2006]](https://projecteuclid.org/journals/bayesian-an
 
 ![height:600px](./assets/example_animate.gif)
 
+
+----
+
+![width:1100px](./assets/dead.png)
 
 
 ----
