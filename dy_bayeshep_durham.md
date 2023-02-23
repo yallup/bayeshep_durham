@@ -31,7 +31,7 @@ Work based on [[2205.02030]](https://arxiv.org/abs/2205.02030) w. T. Janßen, S.
 &nbsp;
 ###### _Bayesian Inference in High Energy Physics, Durham University_
  
-###### 25-27th May 2022
+##### 25-27th May 2022
 
 ![height:100px](./assets/cam.png) 
 
